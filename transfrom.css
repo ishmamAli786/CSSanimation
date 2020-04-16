@@ -1,22 +1,69 @@
 body{
     background-color: #abcdef;
 }
+/*explain translate property of animation in this part*/
 .trans{
     height:200px;
     width:200px;
     background:red;
-    transition:all 1s linear;
+    margin:100px auto;
+    animation anim1;
+    animation-duration: 5s;
 }
-.trans:hover{
+/*.trans:hover{
     transform:translate(200px,250px);
     transition:all 1s linear;
-    background-color: #f0f;
-}
-/*a{
+    background-color: #f0f;*/
+
+/*.click{
     text-decoration: none;
     color: white;
     background-color: green;
-    border: 3px solid black;
-    transition:border 1s linear;
+    border-top: 3px solid black;
+    padding: 25px;
 }
 */
+
+
+
+
+
+
+
+/*explain rotate property of animation in this part*/
+
+/*.trans:hover{
+    transform:rotate(45deg);
+}*/
+
+
+/*explain scale property of animation in this part*/
+/*how we can zoom and magnify a thing */
+
+/*.trans:hover{
+    transform:scale(2);
+}
+*/
+
+
+/*explain skew property in this part*/
+/*.trans:hover{
+    transform:skew(10deg);
+}*/
+/*.click:hover{
+    transform:skew(20deg);
+    transition:transfrom 1s linear;
+    background: black;
+}
+*/
+
+/*mix all transfrom in this part*/
+
+
+/* trasfrom: translate(5px, 5px) rotate(45deg) skew(10deg) scale(1.5)/*
+
+//explain key frame animatioon inn  this part*/
+@keyframes anim1{
+    from{left:0;top:0;background:green;}
+    to{left:250;top:300;background:black;}
+}
